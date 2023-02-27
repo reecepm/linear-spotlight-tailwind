@@ -7,5 +7,5 @@ This is [Linear's container hover spotlight](https://linear.app/features) effect
 
 
 ## Original Example
-![](https://github.com/cascoid/linear-spotlight-tailwind/blob/main/example.gif)
+![](https://github.com/cascoid/linear-spotlight-tailwind/blob/main/linear.gif)
 
