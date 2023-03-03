@@ -16,10 +16,12 @@ const Home: NextPage = () => {
   };
 
   return (
-    <div className="flex h-screen w-full items-center justify-center">
+    <div className="flex h-screen w-full flex-col items-center justify-center">
+      <h1 className="text-6xl font-bold text-white">Spotlight Containers</h1>
+
       <div
         className="group flex w-full max-w-6xl flex-wrap items-center justify-center gap-2 p-20"
-        onMouseMove={(e) => onMouseMove(e)}
+        onMouseMove={onMouseMove}
       >
         {[...Array(6)].map((_, x) => (
           <div
